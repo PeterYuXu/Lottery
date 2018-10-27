@@ -15,6 +15,7 @@ contract Lottery {
         manager = msg.sender;
     }
 
+    
     //彩民投注函数，所有人均可以参与
     function play() public payable {
         //每次限投 1 ether,可以多次下注
